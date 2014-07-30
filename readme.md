@@ -6,10 +6,12 @@
 
 Inspired by and largely copied from [jgable/grunt-phplint](https://github.com/jgable/grunt-phplint) but in a build-tool agnostic manner.
 
+Modification by [M1ke](http://twitter.com/m1ke) to output errors to stdout without sending everything to stdout. Further stage will probably be to try and self-document the code a bit.
+
 ## Install
 
 ```sh
-$ npm install --save-dev phplint
+$ npm install --save-dev https://github.com/M1ke/node-phplint/archive/master.tar.gz
 ```
 
 ## Usage
